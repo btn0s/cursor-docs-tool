@@ -1,0 +1,2197 @@
+
+> web@0.1.0 dev /Users/btn0s/dev/btn0s/2026/artifacts/cursor-docs/apps/web
+> next dev --port 3000
+
+[1m[38;2;173;127;168m▲ Next.js 16.1.0[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.100.251:3000
+
+[32m[1m✓[22m[39m Starting...
+[32m[1m✓[22m[39m Ready in 645ms
+ GET / [32m200[39m in 1907ms[2m (compile: 1820ms, render: 87ms)[22m
+ GET / [32m200[39m in 18ms[2m (compile: 1627µs, render: 16ms)[22m
+ GET / [32m200[39m in 16ms[2m (compile: 1229µs, render: 14ms)[22m
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to /var/folders/th/_n58dqhs6335c967m5wmw98h0000gn/T/next-panic-ef92484cd8463ee5162f15110e6dad4b.log.
+
+To help make Turbopack better, report this error by ]8;;https://github.com/vercel/next.js/discussions/new?category=turbopack-error-report&title=Turbopack%20Error%3A%20Expected%20file%20content%20for%20file&body=Turbopack%20version%3A%20%60v16.1.0-canary.22-36-g1427bf872%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AExpected%20file%20content%20for%20file%0A%0ADebug%20info%3A%0A-%20Execution%20of%20subscribe_issues_and_diags_operation%20failed%0A-%20Execution%20of%20%3CAppEndpoint%20as%20Endpoint%3E%3A%3Aserver_changed%20failed%0A-%20Execution%20of%20%2AProject%3A%3Aserver_changed%20failed%0A-%20Execution%20of%20%2AAppEndpointOutput%3A%3Aserver_assets%20failed%0A-%20Execution%20of%20AppEndpoint%3A%3Aoutput%20failed%0A-%20Execution%20of%20get_app_page_entry%20failed%0A-%20Execution%20of%20file_content_rope%20failed%0A-%20Expected%20file%20content%20for%20file%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace\clicking here.]8;;\
+-----
+
+[32m[1m✓[22m[39m Compiled in 191ms
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:18:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:650:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/node-stack-frames'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:22:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:26:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-match-utils.js:34:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/path-to-regexp'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/path-to-regexp' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-match-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-matcher.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js:33:35
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/react-refresh/runtime'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/react-refresh/runtime' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js:6:35
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/react-refresh/runtime'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/react-refresh/runtime' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/format-webpack-messages.js:34:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/format-webpack-messages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js:24190:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'scheduler'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:42:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/get-page-files'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:43:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/htmlescape'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:47:17
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/lib/trace/tracer'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:48:16
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/lib/trace/utils'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[32m[1m✓[22m[39m Compiled in 239ms
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:18:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:650:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/node-stack-frames'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_error.js:29:36
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/request-meta'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:22:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:26:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-match-utils.js:34:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/path-to-regexp'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/path-to-regexp' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-match-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-matcher.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js:33:35
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/react-refresh/runtime'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/react-refresh/runtime' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal/helpers.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/runtime.js:6:35
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/react-refresh/runtime'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/react-refresh/runtime' inside of [project]/apps/web
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js:27:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/safe-stable-stringify'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/safe-stable-stringify' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/format-webpack-messages.js:34:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/format-webpack-messages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js:24190:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'scheduler'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m Error: ENOENT: no such file or directory, open '/Users/btn0s/dev/btn0s/2026/artifacts/cursor-docs/apps/web/.next/dev/server/pages/_error/client-build-manifest.json'
+    at [3mignore-listed frames[23m {
+  errno: [33m-2[39m,
+  code: [32m'ENOENT'[39m,
+  syscall: [32m'open'[39m,
+  path: [32m'/Users/btn0s/dev/btn0s/2026/artifacts/cursor-docs/apps/web/.next/dev/server/pages/_error/client-build-manifest.json'[39m
+}
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:18:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:650:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/node-stack-frames'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:22:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:26:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-match-utils.js:34:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/path-to-regexp'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/path-to-regexp' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-match-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/utils/route-matcher.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/router/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/polyfills/process.js:3:214
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/process'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/process' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/polyfills/process.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js:27:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/safe-stable-stringify'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/safe-stable-stringify' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/format-webpack-messages.js:34:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/shared/lib/format-webpack-messages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js:24190:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'scheduler'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:42:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/get-page-files'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:43:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/htmlescape'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:47:17
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/lib/trace/tracer'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:48:16
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/lib/trace/utils'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:41:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/constants'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:46:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/encode-uri-path'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js:45:35
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/html-context.shared-runtime'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/lib/is-error.js:26:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/is-plain-object'[39m
+
+
+Import trace:
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/lib/is-error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_document.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/document.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:60:73
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../shared/lib/format-webpack-messages'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js:36:22
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../shared/lib/error-source'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js:11:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../shared/lib/normalized-asset-prefix'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js:29:28
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/forward-logs-shared'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js:38:28
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/forward-logs-shared'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:25:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/lib/lazy-dynamic/bailout-to-csr'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/tracing/tracer.js:12:56
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/lib/mitt'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/tracing/tracer.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/hydration-error-state.js:27:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/react-18-hydration-error'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/hydration-error-state.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/hydration-error-state.js:28:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/react-19-hydration-error'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/hydration-error-state.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:18:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:650:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/node-stack-frames'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_error.js:29:36
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/request-meta'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:57:40
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/app-router-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:20:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/constants'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js:35:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/deployment-id'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js:36:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/encode-uri-path'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_error.js:16:56
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/head'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/error.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:41:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/head-manager-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/script.js:33:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/head-manager-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/script.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:59:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/hooks-client-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:54:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/image-config-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/lib/is-error.js:26:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/is-plain-object'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/lib/is-error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:42:56
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/mitt'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:43:37
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js:43:37
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:58:19
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/adapters'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js:42:58
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/router'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-base-path.js:11:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/add-path-prefix'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-base-path.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:44:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/disable-smooth-scroll'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:14:73
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/get-asset-path-from-route'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js:32:73
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/get-asset-path-from-route'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:13:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/interpolate-as'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:45:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/is-dynamic'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:16:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/is-dynamic'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js:12:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/parse-path'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-locale.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:17:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/parse-relative-url'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/has-base-path.js:11:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/path-has-prefix'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/has-base-path.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:46:22
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/querystring'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:17:22
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/querystring'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js:11:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/remove-trailing-slash'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-locale.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:18:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/remove-trailing-slash'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:47:16
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/utils'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:22:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:26:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/polyfills/process.js:3:214
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/process'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/process' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/polyfills/process.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js:27:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/safe-stable-stringify'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/safe-stable-stringify' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs-utils.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/next-devtools/userspace/app/forward-logs.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js:24190:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'scheduler'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Error [TurbopackInternalError]: Failed to write app endpoint /page
+
+Caused by:
+- Expected file content for file
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /page
+- Execution of AppEndpoint::output failed
+- Execution of get_app_page_entry failed
+- Execution of file_content_rope failed
+- Expected file content for file
+    at <unknown> (TurbopackInternalError: Failed to write app endpoint /page) {
+  location: [90mundefined[39m
+}
+[33m[1m⚠[22m[39m ./apps/web
+Could not resolve React Refresh runtime
+React Refresh will be disabled.
+To enable React Refresh, install the [32mreact-refresh[39m and [32m@next/react-refresh-utils[39m modules.
+
+
+[33m[1m⚠[22m[39m ./apps/web
+Could not resolve React Refresh runtime
+React Refresh will be disabled.
+To enable React Refresh, install the [32mreact-refresh[39m and [32m@next/react-refresh-utils[39m modules.
+
+
+[32m[1m✓[22m[39m Compiled in 112ms
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:30:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../lib/constants'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:27:22
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../next-devtools/userspace/app/forward-logs'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:57:31
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../next-devtools/userspace/pages/pages-dev-overlay-setup'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:61:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:28:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:60:73
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../../shared/lib/format-webpack-messages'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js:11:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../../shared/lib/normalized-asset-prefix'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/get-socket-url.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:26:59
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../lib/is-error'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:38:38
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../next-devtools/userspace/app/errors/stitched-error'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js:12:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-middleware-client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js:25:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/lib/lazy-dynamic/bailout-to-csr'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/react-client-callbacks/on-recoverable-error.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/tracing/tracer.js:12:56
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../../shared/lib/mitt'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/tracing/tracer.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:53:18
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../lib/is-error'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js:44:59
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../lib/is-error'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:126:47
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../next-devtools/userspace/pages/pages-dev-overlay-setup'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:18:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/hot-reloader-types'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:650:32
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../server/dev/node-stack-frames'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:57:40
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/app-router-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:20:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/constants'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js:35:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/deployment-id'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js:36:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/encode-uri-path'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:41:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/head-manager-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/script.js:33:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/head-manager-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/script.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:59:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/hooks-client-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:54:42
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/image-config-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:42:56
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/mitt'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:43:37
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js:43:37
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router-context.shared-runtime'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:58:19
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/adapters'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js:42:58
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/router'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/router.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-base-path.js:11:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/add-path-prefix'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-base-path.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:44:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/disable-smooth-scroll'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:14:73
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/get-asset-path-from-route'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js:32:73
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/get-asset-path-from-route'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/route-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:13:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/interpolate-as'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:45:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/is-dynamic'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:16:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/is-dynamic'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js:12:20
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/parse-path'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-locale.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:17:27
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/parse-relative-url'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/has-base-path.js:11:24
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/path-has-prefix'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/has-base-path.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:46:22
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/querystring'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:17:22
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/querystring'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js:11:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/remove-trailing-slash'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/normalize-trailing-slash.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/add-locale.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js:18:30
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/router/utils/remove-trailing-slash'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-loader.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js:47:16
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/utils'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_app.js:14:16
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/utils'[39m
+
+
+Import traces:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_app.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/app.js
+
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_app.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_app.js:14:16
+[1m[31mModule not found[39m[22m: Can't resolve [32m'../shared/lib/utils'[39m
+
+
+Import traces:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_app.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/app.js
+
+  SSR:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/pages/_app.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/app.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:56:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js:22:23
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/next-devtools'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/next-devtools' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/polyfills/process.js:3:214
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/process'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/process' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/build/polyfills/process.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:58:61
+[1m[31mModule not found[39m[22m: Can't resolve [32m'next/dist/compiled/strip-ansi'[39m
+Import map: aliased to module 'next' with subpath '/dist/compiled/strip-ansi' inside of [project]/apps/web
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/page-bootstrap.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[31m[1m⨯[22m[39m ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js:24190:21
+[1m[31mModule not found[39m[22m: Can't resolve [32m'scheduler'[39m
+
+
+Import trace:
+  Browser:
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/cjs/react-dom-client.development.js
+    ./node_modules/.pnpm/react-dom@19.2.3_react@19.2.3/node_modules/react-dom/client.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/index.js
+    ./node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/client/next-dev-turbopack.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+Error [TurbopackInternalError]: Failed to write page endpoint /_document
+
+Caused by:
+- File not found: "[project]/node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/lib/default-transpiled-packages.json"
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_document
+- Execution of PageEndpoint::output failed
+- Execution of PageEndpoint::internal_ssr_chunk failed
+- Execution of PageEndpoint::internal_ssr_chunk_module failed
+- Execution of *ProcessResult::module failed
+- Execution of *<ModuleAssetContext as AssetContext>::process failed
+- Execution of PagesProject::ssr_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::server_transitions failed
+- Execution of *NextDynamicTransition::new_client failed
+- Execution of PagesProject::client_transition failed
+- Execution of *FullContextTransition::new failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- File not found: "[project]/node_modules/.pnpm/next@16.1.0_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/lib/default-transpiled-packages.json"
+    at <unknown> (TurbopackInternalError: Failed to write page endpoint /_document) {
+  location: [90mundefined[39m
+}
+[32m[1m✓[22m[39m Compiled in 71ms
+Error: Turbopack build failed with 1 errors:
+./apps/web/src/app
+Error: Next.js inferred your workspace root, but it may not be correct.
+    We couldn't find the Next.js package ([1m[31mnext/package.json[39m[22m) from the project directory: [1m[31m/Users/btn0s/dev/btn0s/2026/artifacts/cursor-docs/apps/web/src/app[39m[22m
+     To fix this, set [32mturbopack.root[39m in your Next.js config, or ensure the Next.js package is resolvable from this directory.
+    Note: For security and performance reasons, files outside of the project directory will not be compiled.
+    See [1m[31mhttps://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory[39m[22m for more information.
+
+    at [3mignore-listed frames[23m
+[?25h
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[43m[30m WARN [39m[49m  Local package.json exists, but node_modules missing, did you mean to install?

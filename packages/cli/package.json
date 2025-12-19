@@ -1,0 +1,22 @@
+{
+  "name": "cli",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "bin": {
+    "cursor-docs": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs --minify",
+    "dev": "tsup src/index.ts --format cjs --watch",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "core": "workspace:*",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "tsup": "^8.3.5"
+  }
+}
